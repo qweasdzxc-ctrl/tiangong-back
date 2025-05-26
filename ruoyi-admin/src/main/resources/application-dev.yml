@@ -10,7 +10,7 @@ spring.boot.admin.client:
       userpassword: ${spring.boot.admin.client.password}
   username: @monitor.username@
   password: @monitor.password@
-
+#
 --- # snail-job 配置
 snail-job:
   enabled: true
