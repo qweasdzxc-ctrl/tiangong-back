@@ -22,7 +22,16 @@
             <groupId>com.mysql</groupId>
             <artifactId>mysql-connector-j</artifactId>
         </dependency>
-
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <!-- Spring Boot Starter Test -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
 <!--        &lt;!&ndash; mp支持的数据库均支持 只需要增加对应的jdbc依赖即可 &ndash;&gt;-->
 <!--        &lt;!&ndash; Oracle &ndash;&gt;-->
 <!--        <dependency>-->
